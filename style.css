@@ -1,0 +1,195 @@
+/* CSS Reset*/
+*{padding: 0; margin: 0;}
+html{scroll-behavior: smooth}
+body{overflow-wrap: hidden;}
+a{text-decoration: none; color: white;}
+.spacerCard{margin: 6vh 0}
+ul{list-style: none;}
+p{font-family: "Poppins";}
+h1{font-family: "Montserrat";}
+a{color:#FFAD12;}
+
+/* line text */
+.lineText{
+  background: #FF6F13;
+  height: .5vw;
+  width: 10vw;
+  margin-top: 2vh;
+  margin-bottom: 1.5vh;
+  border-radius: 100vw;
+}
+
+/*landing*/
+.landingContainer{
+  height: 100vh;
+  background: url(asset/wlcm.jpeg);
+  background-size: cover;
+  background-clip: content-box;
+  background-position: center;
+}
+
+.landingContainer .content{
+  color: white;
+  display: inline-block;
+  margin-top: 50%;
+  padding-left: 2%;
+  padding-right: 2%;
+}
+
+.landingContainer .content .nextButton{
+  background: #008000;
+  border: none;
+  color: white;
+  padding: 1vh 2vw;
+}
+  .content .nextButton:hover{
+    background: #D7ECFF;
+    transition: 1s;
+  }
+
+/* Navigation */
+nav{
+  background: rgba(253, 253, 253, 0.92);
+  backdrop-filter: blur(10px);
+  top: 0;
+  position: sticky;
+}nav .navContent{display:flex; align-items: center; text-transform: uppercase; padding:0 2vw;} .navContent p{font-family: 'Montserrat'; font-weight: 200; font-size: .9em;}
+  
+/* card clip */
+.cardClip{
+  margin: 0 5vw;
+}
+.card{
+  padding: 2%;
+  border-radius: 2vh;
+}
+  
+/* card newsletter */
+.newsletter{
+  background: #E9FFE9;
+  box-shadow: 0 0 10px #008000;
+  padding: 2%;
+  border-radius: 2vh;
+}
+  
+.newsletter .learnMore{
+  float: right;
+  padding: 1vh 2vw;
+  border: none;
+  border-radius: 100vh;
+  background: #FF6F13;
+}
+
+/* slide */
+.mySlides{
+  aspect-ratio:16/9;
+  border-radius: 2vw;
+  width: 90%;
+  animation: fade .5s ease-in-out;
+  box-shadow: 5px 5px #e9f5db;
+}
+  
+  /* card about */
+.about{
+  background: #D7ECFF;
+  border: 2px solid #157BD794;
+}
+
+.about .learnMore{
+  float: right;
+  padding: 1vh 2vw;
+  border: none;
+  border-radius: 100vh;
+  background: #157BD7;
+}
+
+.about .lineText{
+  background: #157BD7;
+}
+
+/* footer */
+.footer{
+  background: hsla(360, 0%, 99%, 1);
+  padding: 5vw;
+}
+
+footer{
+  background: #008000;
+  padding: 5vw 5vw;
+  color: #F8FFFA;
+}.footer a{color: black; font-family: 'Montserrat';}
+
+footer .copyright{
+  font-family: 'Poppins';
+  font-weight: 500;
+  font-size: 3vw;
+  line-height: none;
+}
+
+footer ul li a{color: #F8FFFA;}
+
+/* aktifitas.html */
+.aktifitas{
+  height: 100vh;
+}.satu{
+  background: url(asset/keg1.jpeg);
+  background-size: cover;
+  background-clip: content-box;
+  background-position: center;}
+  .dua{
+  background: url(asset/keg2.jpeg);
+  background-size: cover;
+  background-clip: content-box;
+  background-position: center;}
+  .tiga{
+  background: url(asset/keg3.jpeg);
+  background-size: cover;
+  background-clip: content-box;
+  background-position: center;}
+  .empat{
+    background: url(asset/keg4.jpeg);
+    background-size: cover;
+    background-clip: content-box;
+    background-position: center;}
+.isi{
+  margin-top: 50%;
+  padding: 0 2%;
+  color: white;
+  display: inline-block;
+  text-shadow: 2px 2px 10px #42445A;
+} .isi .judulKegiatan{font-family:'Montserrat'}
+  .isi .waktu{background: #CBCBCB82; border-radius: 100px;}
+  .isi .lanjut{background: #008000;}
+  
+/* laskar */
+/*31*/
+.banner{
+  aspect-ratio: 16-9;
+  width: 100%;
+}
+  
+.infoLaskar{
+  font-family: 'Montserrat';
+  margin: 0 5vw;
+  text-align: center ;
+}
+
+.personPar{
+  margin: 10vh 5vw;
+}
+
+.person{
+  display:flex;
+  margin: 5vh 0;
+}
+
+.personImg{
+  display: flex;
+  flex-direction: colum;
+  width: 40vw;
+  border-radius: 5%;
+  margin-right: 2vw;
+}
+
+.person .nama{font-family: 'Montserrat';}
+.manajName{font-family: 'Montserrat';}

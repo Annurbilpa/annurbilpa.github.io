@@ -1,4 +1,4 @@
-alert("PEMBERITAHUAN\nLaman ini dalam tahap pengembangan")
+//alert("PEMBERITAHUAN\nLaman ini dalam tahap pengembangan")
 
 var slideIndex = 0;
 carousel();
