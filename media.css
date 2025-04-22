@@ -1,0 +1,24 @@
+@media only screen and (max-width: 654px) {
+    nav .left .logoText{display: none;}
+    nav .right ul{display: none;}
+    nav .right .menu{display: flex;}
+
+    .showcase{flex-wrap: wrap-reverse;}
+    .mySlides{width: 100%;}
+    .showcase-info{padding-left: 0;}
+
+    .achievmentContent{flex-wrap: wrap; flex-direction: column;}
+    #ar{text-align: left;}
+    #ar img{margin-left: 0;}
+    .achievment-img img{width: 100%;}
+    .achievment-info{padding-left: 0;}
+
+    /* media for laskar31.html */
+    .person{ display: flex;
+        flex-wrap: wrap;
+        margin: 0 auto;
+        justify-content: start;}
+    .person-details{flex-direction: row; align-items: center;}
+    .person-details img{width: 10rem;}
+}
+
