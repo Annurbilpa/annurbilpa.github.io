@@ -109,7 +109,7 @@ nav{
 .header{
     width: 100%;
     height: 50vh;
-    background-image: url(asset/banner.jpeg);
+    background-image: url(asset/bg.png);
     background-position: center;
     background-size: cover;
     color: white;
@@ -234,3 +234,4 @@ nav{
     text-align: center;
     padding: 2rem 0;
   }
+
